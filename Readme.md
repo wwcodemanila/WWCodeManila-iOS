@@ -13,9 +13,9 @@ In December 2015, Apple released the Swift language and supporting resources on 
 ### Sessions
 | Session | Topic |
 | ------ | ------ |
-| [01](https://gitlab.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-01.playground) | Introduction to Swift pt 1 |
-| [02](https://gitlab.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-02.playground) | Introduction to Swift pt 2 |
-| [04](https://gitlab.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-04.playground) | Swift Optionals 
+| [01](https://github.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-01.playground) | Introduction to Swift pt 1 |
+| [02](https://github.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-02.playground) | Introduction to Swift pt 2 |
+| [04](https://github.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-04.playground) | Swift Optionals 
 
 ###### References:  
 [_App Development with Swift_](https://itun.es/ph/SoKQib.l) Apple Inc. - Education, 2017.
