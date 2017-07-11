@@ -14,7 +14,7 @@ In December 2015, Apple released the Swift language and supporting resources on 
 - [x] [Introduction to Swift pt 1](https://gitlab.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-01.playground)
 - [x] [Introduction to Swift pt 2](https://gitlab.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-02.playground)
 - [x] [Swift Optionals](https://gitlab.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-04.playground)
-- [x] My First iOS App
+- [x] Building your first app
 
 
 <!--
