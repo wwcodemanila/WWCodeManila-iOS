@@ -10,12 +10,12 @@ A number of features already mentioned make Swift a safe language by helping you
 **Open Source**
 In December 2015, Apple released the Swift language and supporting resources on GitHub as an open source project.
 
-### Sessions
-| Session | Topic |
-| ------ | ------ |
-| [01](https://github.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-01.playground) | Introduction to Swift pt 1 |
-| [02](https://github.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-02.playground) | Introduction to Swift pt 2 |
-| [04](https://github.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-04.playground) | Swift Optionals 
+
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Topics |
+ ------ |
+  |
+|[x]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Introduction to Swift pt 2](https://gitlab.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-02.playground) |
+ | [x]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Swift Optionals](https://gitlab.com/wwcodemanila/WWCodeManila-iOS/tree/master/Session-04.playground)
 
 ###### References:  
 [_App Development with Swift_](https://itun.es/ph/SoKQib.l) Apple Inc. - Education, 2017.
