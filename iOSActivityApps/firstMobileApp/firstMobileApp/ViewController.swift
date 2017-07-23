@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var firstNameTxt: UITextField!
-    @IBOutlet weak var lastNameTxt: UITextField!
-    @IBOutlet weak var outputTxtField: UITextView!
+    @IBOutlet weak var firstNameTextField: UITextField!
+    @IBOutlet weak var lastNameTextField: UITextField!
+    @IBOutlet weak var outputTextView: UITextView!
     
     var message = String()
     
@@ -27,12 +27,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func printName(_ sender: Any) {
-        let firstName = self.firstNameTxt.text ?? ""
-        let lastName = self.lastNameTxt.text ?? ""
+        let firstName = self.firstNameTextField.text ?? ""
+        let lastName = self.lastNameTextField.text ?? ""
         
         message = "Hello " + firstName + " " + lastName
         
-        self.outputTxtField.text = message
+        self.outputTextView.text = message
         
     }
 
