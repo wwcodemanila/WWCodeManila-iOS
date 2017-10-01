@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var outputTextView: UITextView!
     
     var message = String()
+    var firstName = String()
+    var lastName = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,13 +29,36 @@ class ViewController: UIViewController {
     }
 
     @IBAction func printName(_ sender: Any) {
-        let firstName = self.firstNameTextField.text ?? ""
-        let lastName = self.lastNameTextField.text ?? ""
         
+        self.stringSetup()
         message = "Hello " + firstName + " " + lastName
         
         self.outputTextView.text = message
         
+    }
+    
+    @IBAction func toSecondVC(_ sender: UIButton) {
+        
+        self.stringSetup()
+        performSegue(withIdentifier: "segueSecond", sender: nil)
+        
+        //        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "secondVC")
+//        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueSecond"{
+            let secondVC = segue.destination as? SecondViewController
+            secondVC?.getFirstName = firstName
+            secondVC?.getLastName = lastName
+        }
+
+    }
+    
+    func stringSetup(){
+        firstName = self.firstNameTextField.text ?? ""
+        lastName = self.lastNameTextField.text ?? ""
     }
 
 }
