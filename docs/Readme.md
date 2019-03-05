@@ -66,4 +66,4 @@ Do you want to host one of our study groups? Email us at **manila@womenwhocode.c
   Credit where credit's due :smile:
 -->
 - Ciela Salazar ([@Aleic27](https://github.com/Aleic27))
-- Charmaine Andrea Legaspi ([@amdg](https://github.com/amdg))
+- Charmaine Andrea Legaspi ([@chamechanga](https://github.com/chamechanga))
