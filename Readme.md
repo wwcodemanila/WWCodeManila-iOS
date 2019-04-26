@@ -1,4 +1,4 @@
-<!--
+E<!--
   UPDATE THIS:
 
   Update with introduction about your study group

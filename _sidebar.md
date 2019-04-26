@@ -15,7 +15,7 @@
 
 - Women Who Code Manila
   - [About WWCode Manila](wwcodemanila/about.md)
-  - [Study Groups](wwcodemanila/study_groups.md)
+  - [Study Groups](wwcodemanila/s.md)
 
 - Contents
   - [Introduction to Swift](contents/introduction_to_swift.md)
