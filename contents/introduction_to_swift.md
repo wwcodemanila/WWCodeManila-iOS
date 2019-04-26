@@ -2,7 +2,7 @@
 # Introduction to Swift
 Building apps, and programming in general, is all about working with data. As a developer, you'll need to understand how to handle and store data using clearly defined types.
 
-####  Constants
+#  Constants
 When you want to name a value that won't change during the lifetime of the program, you'll use a constant.
 You define constants in Swift using the _**let**_ keyword.
 
@@ -11,7 +11,7 @@ let newstr = "Hello, I'm a constant"
 ```
 **Note**: You can't give a constant a new value once it has been assigned.
 
-#### Variables
+# Variables
 When you want to name a value that may change during the lifetime of the app, you'll use a variable.
 You define variables using the **_var_** keyword.
 
@@ -36,11 +36,11 @@ var integer : Int = 1
 
 **IMPORTANT : Constant and Variable names can't contain – Mathematical Symbols, Spaces, and when it begins with a number.**
 
-### Control Flow
+# Control Flow
 
-##### Logical Operators
+## Logical Operators
 ![alt text](http://i.imgur.com/XEbfzAj.png "Logical Operators")
-####  If else
+##  If else
 Specify a block of code to execute if the condition is not true.
 
 ```sh 
@@ -58,7 +58,7 @@ if choice == true || choice2 == true{
 ```
 **Note**: In Swift, there's no need to enclose conditions in parenthesis().
 
-####  Switch Case
+##  Switch Case
 A basic switch statement takes a value with multiple options and allows you to run separate code based on each option, or case. You can also provide a default case to specify a block of code that will run in all the cases you haven't specifically defined.
 
 ```sh 
@@ -81,7 +81,7 @@ default:
 > Falls through to the next case, not to the next matching case
 #
 #
-####  For Loop
+##  For Loop
 A for loop is useful for repeating something a set number of times or for performing work across a collection of values. It executes a set of statements for each item within a range, sequence, or collection.
 
 ```sh 
@@ -106,7 +106,7 @@ for (index, name) in names.enumerated(){
 > returns a tuple containing both the index and the value of each item
 
 
-#### Tuple
+## Tuple
 A special type that can hold an ordered list of values wrapped in parentheses– that holds the key and value of each entry
 ```sh 
 var person = (name: "Ciela",age: 20)
@@ -114,7 +114,7 @@ print(person.name)
 ```
 
 
-#### Function
+## Function
 A function is the idea of taking something that is complex and defining a simpler way to refer to it is an abstraction.
 
 ```sh 
@@ -126,7 +126,7 @@ printName(name: "Ciela")
 >A function is made up of three things: its **name**, an optional list of **parameters**, and an optional **return type**.
 
 
-####  While Loop
+##  While Loop
 A while loop will continue to loop until its specified condition is no longer true.
 
 ```sh 
@@ -140,7 +140,7 @@ while (countWhile < names.count){
 >**Important**: Avoid infinite loop by making sure the condition will be satifisfied at some point. In the above example, we increment our countWhile variable which serves as our loop counter.
 
 
-#### Repeat While
+### Repeat While
 Unlike While - on Repeat While the statement will be executed first before the condition is evaluated.
 
 ```sh 
@@ -151,9 +151,9 @@ repeat{
 } while (test != true)
 ```
 
-### Collections
+# Collections
 
-####  Array
+##  Array
 Stores an ordered list of same-typed values. When you declare an array, you can specify what type of values will be held in the collection, or you can let the type inference system discover the type
 
 ```sh 
@@ -165,7 +165,7 @@ var names : [String] = ["Anna","Bert","Calvin","Dexter","Einstein"]
 var myArray: [Int] = []
 ```
 
-####  Dictionary
+##  Dictionary
 It is a list of keys, each with an associated value. Each key must be unique, just like each word in the dictionary is unique.
 ```sh 
 var professions : [String : (String, Int)] = ["Joey" : ("Doctor",8) , "Andrea" : ("Nurse",10), "Eugene" : ("Engineer",9)]
@@ -180,7 +180,7 @@ var myDictionaryOne = Dictionary<String, Int>()
 var myDictionaryTwo : [String: Int] = [:]”
 ```
 
-####  Set
+##  Set
 Similar with Array but it stores an UN-ORDERED list of same-typed values
 ```sh 
 var sampleSet : Set<Int> = [1,2,3,4,5]
