@@ -18,29 +18,7 @@
   - [Study Groups](wwcodemanila/study_groups.md)
 
 - Contents
-  <!--
-    UPDATE THIS:
-
-    Populate your contents with the contents for your study group's topic
-
-    Put the files under contents/ and reference them here.
-    Use descriptive topic titles, intead of "Topic 1", "Topic 2".
-
-    For example:
-
-    - [Variables and Constants](contents/variables_and_constants.md)
-
-    You can also opt to change the contents structure, especially if your study groups has many topic groupings. For example:
-
-    - Ruby Fundamentals
-      - [Variables and Constants](ruby_fundamentals/variables_and_constants.md)
-      ...
-
-    - Ruby on Rails
-      - [Building Your First App](ruby_on_rails/building_your_first_app.md)
-  -->
-  - [Swift Fundamentals](contents/swift_fundamentals.md)
-  - [Swift Study Group Topics](contents/swift.md)
+  - [Introduction to Swift](contents/introduction_to_swift.md)
 
 - Resources
   <!--
