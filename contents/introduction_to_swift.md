@@ -3,7 +3,7 @@
 Building apps, and programming in general, is all about working with data. As a developer, you'll need to understand how to handle and store data using clearly defined types.
 
 #  Constants
-When you want to name a value that won't change during the lifetime of the program, you'll use a constant.
+When you want to name a vtalue that won't change during the lifetime of the program, you'll use a constant.
 You define constants in Swift using the _**let**_ keyword.
 
 ```sh 
@@ -105,27 +105,6 @@ for (index, name) in names.enumerated(){
 > **enumerated()**
 > returns a tuple containing both the index and the value of each item
 
-
-## Tuple
-A special type that can hold an ordered list of values wrapped in parentheses– that holds the key and value of each entry
-```sh 
-var person = (name: "Ciela",age: 20)
-print(person.name)
-```
-
-
-## Function
-A function is the idea of taking something that is complex and defining a simpler way to refer to it is an abstraction.
-
-```sh 
-func printName(name: String) -> (String, Int){
-    return ("Hello \(name)", 20)
-}
-printName(name: "Ciela")
-```
->A function is made up of three things: its **name**, an optional list of **parameters**, and an optional **return type**.
-
-
 ##  While Loop
 A while loop will continue to loop until its specified condition is no longer true.
 
@@ -180,6 +159,13 @@ var myDictionaryOne = Dictionary<String, Int>()
 var myDictionaryTwo : [String: Int] = [:]”
 ```
 
+## Tuple
+A special type that can hold an ordered list of values wrapped in parentheses– that holds the key and value of each entry
+```sh 
+var person = (name: "Ciela",age: 20)
+print(person.name)
+```
+
 ##  Set
 Similar with Array but it stores an UN-ORDERED list of same-typed values
 ```sh 
@@ -190,6 +176,18 @@ for (index, value) in sampleSet.enumerated(){
     print("\(index) : \(value)")
 }
 ```
+
+# Function
+A function is the idea of taking something that is complex and defining a simpler way to refer to it is an abstraction.
+
+```sh 
+func printName(name: String) -> (String, Int){
+    return ("Hello \(name)", 20)
+}
+printName(name: "Ciela")
+```
+>A function is made up of three things: its **name**, an optional list of **parameters**, and an optional **return type**.
+
 
 ###### References:  
 [_App Development with Swift_](https://itun.es/ph/SoKQib.l) Apple Inc. - Education, 2017.
