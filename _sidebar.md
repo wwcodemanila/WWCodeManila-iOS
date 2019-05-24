@@ -15,10 +15,11 @@
 
 - Women Who Code Manila
   - [About WWCode Manila](wwcodemanila/about.md)
-  - [Study Groups](wwcodemanila/s.md)
+  - [Study Groups](wwcodemanila/study_groups.md)
 
 - Contents
   - [Introduction to Swift](contents/introduction_to_swift.md)
+  - [Xcode Essentials](contents/xcode_essentials.md)
 
 - Resources
   <!--
