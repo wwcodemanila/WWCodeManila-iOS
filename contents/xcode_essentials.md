@@ -7,7 +7,6 @@ In this session, we will be able to:
 * Have a tour in the Xcode IDE
 * Create our own simple application
 
-
 # Xcode IDE
 Xcode is the IDE developed by Apple for developing software for macOS, iOS, watchOS, and tvOS. It is only available in **macOS**.
 
