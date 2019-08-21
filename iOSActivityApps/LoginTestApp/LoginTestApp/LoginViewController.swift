@@ -27,6 +27,13 @@ class LoginViewController: UIViewController {
         
         isPasswordHidden = true
         isVerifiedUser = false
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     @IBAction func togglePasswordAppearance(_ sender: Any) {
