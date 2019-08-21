@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553F544D22F6D25800DACAF3 /* TouchIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F544C22F6D25800DACAF3 /* TouchIDAuth.swift */; };
+		553F544F22F6D27900DACAF3 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F544E22F6D27900DACAF3 /* Keychain.swift */; };
 		5542BCC222F5BCEE0046EF9E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542BCC122F5BCEE0046EF9E /* LoginViewController.swift */; };
 		5542BCC422F5CF740046EF9E /* mockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542BCC322F5CF740046EF9E /* mockUser.swift */; };
 		55B711DE22ED6966005D72E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B711DD22ED6966005D72E1 /* AppDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		553F544C22F6D25800DACAF3 /* TouchIDAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDAuth.swift; sourceTree = "<group>"; };
+		553F544E22F6D27900DACAF3 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		5542BCC122F5BCEE0046EF9E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5542BCC322F5CF740046EF9E /* mockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockUser.swift; sourceTree = "<group>"; };
 		55B711DA22ED6966005D72E1 /* LoginTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		553F545022F6D29B00DACAF3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				553F544E22F6D27900DACAF3 /* Keychain.swift */,
+				553F544C22F6D25800DACAF3 /* TouchIDAuth.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		55B711D122ED6965005D72E1 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +75,7 @@
 				55B711DF22ED6966005D72E1 /* LogoutViewController.swift */,
 				5542BCC122F5BCEE0046EF9E /* LoginViewController.swift */,
 				5542BCC322F5CF740046EF9E /* mockUser.swift */,
+				553F545022F6D29B00DACAF3 /* Utilities */,
 				55B711E122ED6966005D72E1 /* Main.storyboard */,
 				55B711E422ED6968005D72E1 /* Assets.xcassets */,
 				55B711E622ED6968005D72E1 /* LaunchScreen.storyboard */,
@@ -141,10 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553F544D22F6D25800DACAF3 /* TouchIDAuth.swift in Sources */,
 				5542BCC222F5BCEE0046EF9E /* LoginViewController.swift in Sources */,
 				55B711E022ED6966005D72E1 /* LogoutViewController.swift in Sources */,
 				5542BCC422F5CF740046EF9E /* mockUser.swift in Sources */,
 				55B711DE22ED6966005D72E1 /* AppDelegate.swift in Sources */,
+				553F544F22F6D27900DACAF3 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
